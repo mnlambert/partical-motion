@@ -1,0 +1,11 @@
+framework module Tin {
+  umbrella header "Tin.h"
+
+  export *
+  module * { export * }
+}
+
+module Tin.Swift {
+    header "Tin-Swift.h"
+    requires objc
+}
